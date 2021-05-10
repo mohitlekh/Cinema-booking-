@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>46 cinema</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-light" style="background-color: orange">
+      <a href="#" class="navbar-brand"></a>
+  </nav>
+  
+  <div class="container mt-3 card card-body p-4" style="box-shadow: 18px;">
+      <h4 class="text-center" style="color: orange">46 cinema</h4>
+      <div class="form-group">
+          <label for="Name">Name</label>
+          <input type="text"
+          name="Name"
+          id="userName"
+          class="form-control" />
+      </div>
+      <div class="form-group">
+        <label for="Name">Email</label>
+        <input type="Email"
+        name="Email"
+        id="userEmail"
+        class="form-control" required />
+    </div>
+    <a href="movies.html" style="text-decoration: none;display: flex; justify-content: center;"><button id="submit" class="btn" style="background-color: orange">Login</button></a>
+  
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-firestore.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
